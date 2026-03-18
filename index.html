@@ -263,7 +263,7 @@ footer{padding:1.8rem 3rem;border-top:1px solid var(--border);display:flex;align
 .fr{font-family:'DM Mono',monospace;font-size:.7rem;color:var(--text-muted)}
 .hrt{color:var(--accent)}
 
-.toast{position:fixed;bottom:2rem;right:2rem;z-index:300;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:.8rem 1.2rem;font-family:'DM Mono',monospace;font-size:.76rem;color:var(--text-dim);display:flex;align-items:center;gap:.6rem;pointer-events:none}
+.toast{position:fixed;bottom:2rem;left:2rem;z-index:300;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:.8rem 1.2rem;font-family:'DM Mono',monospace;font-size:.76rem;color:var(--text-dim);display:flex;align-items:center;gap:.6rem;pointer-events:none}
 .toast.in{animation:slideInR .3s ease forwards}
 .toast.out{animation:slideOutR .3s ease forwards}
 .tdot2{width:6px;height:6px;border-radius:50%;background:var(--accent)}
@@ -332,7 +332,7 @@ footer{padding:1.8rem 3rem;border-top:1px solid var(--border);display:flex;align
           <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           View Projects
         </a>
-        <a href="mailto:sarangmarotkar99@gmail.com" class="btn-out">Hire Me</a>
+        <a href="/cdn-cgi/l/email-protection#3c4f5d4e5d525b515d4e5348575d4e05057c5b515d5550125f5351" class="btn-out">Hire Me</a>
       </div>
     </div>
     <div class="hero-vis">
@@ -363,7 +363,7 @@ footer{padding:1.8rem 3rem;border-top:1px solid var(--border);display:flex;align
         </div>
         <div class="obj-box"><p>🎯 Seeking an entry-level Software Engineer / Java Full Stack Developer role to contribute to scalable applications and grow with a product-driven team.</p></div>
         <div class="cinfo-row">
-          <a class="ci" href="mailto:sarangmarotkar99@gmail.com">📧 sarangmarotkar99@gmail.com</a>
+          <a class="ci" href="/cdn-cgi/l/email-protection#7e0d1f0c1f1019131f0c110a151f0c47473e19131f1712501d1113">📧 <span class="__cf_email__" data-cfemail="1d6e7c6f7c737a707c6f7269767c6f24245d7a707c7471337e7270">[email&#160;protected]</span></a>
           <a class="ci" href="tel:9764687761">📞 9764687761</a>
           <a class="ci" href="https://www.linkedin.com/in/sarang-marotkar-55b1892a4" target="_blank">💼 LinkedIn</a>
           <a class="ci" href="https://superherotech.github.io/MyPortfolio/" target="_blank">🌐 Live Portfolio</a>
@@ -578,9 +578,9 @@ footer{padding:1.8rem 3rem;border-top:1px solid var(--border);display:flex;align
       <p class="slabel reveal">Get In Touch</p>
       <h2 class="bigcta reveal">Let's Build<br/><span>Something Great</span></h2>
       <p class="csub reveal">Open to entry-level Software Engineer & Full Stack Developer roles. Whether it's a job opportunity or a collaboration — I'd love to hear from you.</p>
-      <a href="mailto:sarangmarotkar99@gmail.com" class="elink reveal">
+      <a href="/cdn-cgi/l/email-protection#5a293b283b343d373b28352e313b2863631a3d373b333674393537" class="elink reveal">
         <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        sarangmarotkar99@gmail.com
+        <span class="__cf_email__" data-cfemail="e3908291828d848e82918c97888291dadaa3848e828a8fcd808c8e">[email&#160;protected]</span>
       </a>
       <div class="socs reveal">
         <a href="https://www.linkedin.com/in/sarang-marotkar-55b1892a4" target="_blank" class="socsb">💼 LinkedIn</a>
@@ -599,7 +599,7 @@ footer{padding:1.8rem 3rem;border-top:1px solid var(--border);display:flex;align
 
 <div class="toast" id="toast" style="display:none"><div class="tdot2"></div><span id="tMsg"></span></div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 /* ── STARFIELD ── */
 const sc=document.getElementById('starfield');
 const sx=sc.getContext('2d');
@@ -814,16 +814,4 @@ document.addEventListener('keydown',e=>{
 
 /* Touch swipe */
 let tx0,ty0;
-gc.addEventListener('touchstart',e=>{tx0=e.touches[0].clientX;ty0=e.touches[0].clientY;},{passive:true});
-gc.addEventListener('touchend',e=>{
-  const dx=e.changedTouches[0].clientX-tx0,dy=e.changedTouches[0].clientY-ty0;
-  if(Math.abs(dx)>Math.abs(dy))handleDir(dx>0?'ArrowRight':'ArrowLeft');
-  else handleDir(dy>0?'ArrowDown':'ArrowUp');
-},{passive:true});
-
-/* Init + idle animation */
-initSnake();placeFood();drawGame();
-requestAnimationFrame(function idle(){if(!running)drawGame();requestAnimationFrame(idle);});
-</script>
-</body>
-</html>
+gc.addEventListener('touchstart',e=>{tx0=e.touches[0].clientX;ty0=e.touches[0].clientY;}
